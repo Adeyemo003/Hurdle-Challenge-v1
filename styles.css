@@ -133,6 +133,7 @@ main {
     .description {
         text-align: center;
         line-height: 1.6;
+        padding-bottom: 0.5rem;
     }
 
     .description > p{
@@ -147,6 +148,7 @@ main {
     .content {
         padding: 1.3rem 1rem 2rem;
         font-weight: 700;
+        margin-top: 4rem;
     }
 
     main {
@@ -510,9 +512,14 @@ footer p {
         gap: 0.5rem;
         top: 94%;  
     }
+
+    #layer-1 h2{
+        font-weight: 600;
+        font-size: 0.8rem; 
+    }
     
     #layer-1 button {
-        font-size: 1em ;
+        font-size: 1em;
         padding: 0.8rem 3rem;
     }
     
@@ -535,5 +542,5 @@ footer p {
     }
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 0.6rem; text-align: center; }
 .attribution a { color: hsl(210, 51%, 74%); }
